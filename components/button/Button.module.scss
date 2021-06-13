@@ -1,0 +1,37 @@
+@import 'styles/shared';
+
+.root {
+  border: 1px solid transparent;
+  border-radius: 0;
+  // font-weight: $font-weight-semibold;
+
+  &.size-sm {
+    padding: 0;
+    // font-size: $btn-font-size-sm;
+    // line-height: $btn-height-sm;
+    // height: $btn-height-sm;
+  }
+  &.size-md {
+    // padding: $btn-md-v-padding $btn-md-h-padding;
+    // font-size: $btn-font-size-md;
+    line-height: 24px;
+    // height: $btn-height-md;
+  }
+  &.size-lg {
+    // padding: $btn-lg-v-padding $btn-lg-h-padding;
+    // font-size: $btn-font-size-lg;
+    line-height: 34px;
+    // height: $btn-height-lg;
+  }
+}
+
+
+.color-primary {
+  color: $color-white;
+  background-color: $btn-color-primary;
+  &:hover, &:focus, &:active {
+    color: $color-white;
+    background-color: #027D94;
+    border-color: transparent;
+  }
+}

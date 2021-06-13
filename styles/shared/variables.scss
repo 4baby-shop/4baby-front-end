@@ -1,0 +1,41 @@
+/************************************
+* Colors
+***********************************/
+$color-white: #fff;
+$color-yellow: #9cc218;
+$color-orange: #ff9c31;
+
+
+/************************************
+* Typography
+***********************************/
+$font-size-base: 1rem;                        // 16px;
+$font-size-default: $font-size-base * 1.125;  // 18px;
+$font-size-h1: $font-size-base * 6.25;        // 100px
+$font-size-h2: $font-size-base * 4;           // 64px
+$font-size-h3: $font-size-base * 2.25;        // 36px
+$font-size-h4: $font-size-base * 1.5;         // 24px
+$font-size-h5: $font-size-base * 1.25;        // 20px
+$font-size-h6: $font-size-default;            // 18px
+
+$font-size-h1-mobile: $font-size-base * 3.5;  // 56px
+$font-size-h2-mobile: $font-size-base * 2.5;  // 40px
+$font-size-h3-mobile: $font-size-base * 2;    // 32px
+$font-size-h4-mobile: $font-size-base * 1.5;  // 24px
+$font-size-h5-mobile: $font-size-base * 1.25; // 20px
+$font-size-h6-mobile: $font-size-default;     // 18px
+
+
+/************************************
+* Buttons
+***********************************/
+$btn-color-white: $color-white;
+$btn-color-primary: $color-orange;
+
+$btn-font-size-sm: 18px;
+$btn-font-size-md: 20px;
+$btn-font-size-lg: 22px;
+
+$btn-height-sm: 28px;
+$btn-height-md: 58px;
+$btn-height-lg: 85px;
